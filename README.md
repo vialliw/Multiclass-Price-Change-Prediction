@@ -91,7 +91,7 @@ The Random Forests model was trained and evaluated on the stock price dataset, f
 #### 1. Model Performance:
 
 
-Training Accuracy: The model achieved a training accuracy of **92.96%**, suggesting it memorized the training data effectively.
+[Training Accuracy](https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/terminal_output.txt): The model achieved a training accuracy of **92.96%**, suggesting it memorized the training data effectively.
 Evaluation Accuracy: Despite the high training accuracy, the evaluation accuracy was **51.02%**, indicating poor generalization to unseen data.
 Normalized Confusion Matrix: Surprisingly, the normalized confusion matrix showed diagonal values close to 1.0, implying near-perfect classification for each class. However, this result contradicts the low evaluation accuracy, signaling a critical issue in the evaluation process or data handling.
 
