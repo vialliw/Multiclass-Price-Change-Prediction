@@ -51,9 +51,9 @@ requirements.txt: List of Python dependencies.
   - In terminal, type 'pip install <ta-lib file>'
   - Example: pip install ta_lib-0.6.3-cp312-cp312-win_amd64.whl
 - Install required python packages
-  - Download requirements.txt
+  - Download [requirements.txt](https://github.com/vialliw/Multiclass-Price-Change-Prediction/blob/main/src/requirements.txt)
   - In terminal, type 'pip install -r requirements.txt'
-- Copy vw_toolbox.py to your library path
+- Copy [vw_toolbox.py](https://github.com/vialliw/Multiclass-Price-Change-Prediction/blob/main/src/vw_toolbox.py) to your library path
 
 ## usage
 Command: py .\talib_rf_predict05d.py <ticker code>
