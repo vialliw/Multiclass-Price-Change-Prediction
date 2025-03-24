@@ -92,33 +92,38 @@ The Random Forests model was trained and evaluated on the stock price dataset, f
 
 
 [Training Accuracy](https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/terminal_output.txt): The model achieved a training accuracy of **92.96%**, suggesting it memorized the training data effectively.
+
 Evaluation Accuracy: Despite the high training accuracy, the evaluation accuracy was **51.02%**, indicating poor generalization to unseen data.
+
 Normalized Confusion Matrix: Surprisingly, the normalized confusion matrix showed diagonal values close to 1.0, implying near-perfect classification for each class. However, this result contradicts the low evaluation accuracy, signaling a critical issue in the evaluation process or data handling.
 
 #### 2. Confusion Matrix Analysis:
 
-The normalized confusion matrix initially appeared promising, with diagonal values near 1.0, suggesting the model correctly classified nearly all instances in each class. However, this result is inconsistent with the overall evaluation accuracy of 51.02%. Possible explanations include:
+The normalized confusion matrix initially appeared promising, with diagonal values near 1.0, suggesting the model correctly classified nearly all instances in each class. However, this result is inconsistent with the overall evaluation accuracy of 51.02%. 
 
+Possible explanations include:
 
-Data Leakage: There may have been unintentional leakage of future information into the training process, leading to artificially inflated performance metrics.
-Incorrect Normalization: The normalization process might have been applied incorrectly, masking true model performance.
-Imbalanced Classes: Despite normalization, the model may still be favoring the majority class (e.g., Flat movements) due to class imbalance, leading to misleading diagonal values.
-
+- Data Leakage: There may have been unintentional leakage of future information into the training process, leading to artificially inflated performance metrics.
+- Imbalanced Classes: Despite normalization, the model may still be favoring the majority class (e.g., Flat movements) due to class imbalance, leading to misleading diagonal values.
 
 #### 3. Insights and Observations:
 
-
 Discrepancy in Metrics: The contradiction between the normalized confusion matrix (diagonal values ~1.0) and the low evaluation accuracy (51.02%) highlights a critical issue in the model’s evaluation or data handling. This discrepancy must be resolved before drawing conclusions.
+
 Potential Data Leakage: The near-perfect diagonal values suggest the model may have access to future information, which would render the results invalid for real-world applications.
+
 Class Imbalance: Even with normalization, the model’s performance may still be skewed by the dominance of certain classes (e.g., Flat movements), leading to misleadingly high diagonal values.
+
 Practical Implications: If the model’s true performance aligns with the evaluation accuracy (51.02%), its utility is limited, especially for predicting extreme movements (Big Rise and Big Drop).
 
 #### 4. Recommendations for Improvement:
 
-
 Investigate Data Leakage: Thoroughly review the data preprocessing pipeline to ensure no future information is inadvertently included in the training process.
+
 Reevaluate Confusion Matrix: Verify the normalization process and consider using raw (unnormalized) metrics or other evaluation methods (e.g., F1-score, precision-recall) to gain a clearer understanding of model performance.
+
 Address Class Imbalance: Apply techniques such as oversampling, undersampling, or class weighting to improve performance on underrepresented classes.
+
 Model Refinement: Simplify the model or apply regularization techniques to reduce overfitting, and consider incorporating additional features or external data to enhance predictive power.
 
 #### Conclusion:
@@ -141,10 +146,7 @@ Analyzed results, derived insights, and drafted the project documentation.
 
 Special recognition is given to the open-source community and libraries that enabled this work, including ta-lib, scikit-learn, pandas, numpy, and matplotlib.
 
-
 This project is a testament to the dedication and expertise of Vialli Wong, showcasing a blend of technical skill, financial insight, and problem-solving prowess. For inquiries or collaborations, please reach out via the links above.
-
-
 
 ## License
 
@@ -152,23 +154,8 @@ MIT License
 
 Copyright (c) 2025 Vialli Wong
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-
-
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
