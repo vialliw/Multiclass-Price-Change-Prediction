@@ -65,6 +65,11 @@ requirements.txt: List of Python dependencies.
 
 [Normalized Confusion Matrix](https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/confusion_matrix.png)
 
+<a href="https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/confusion_matrix.png" target="_blank">
+  <img src="https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/confusion_matrix.png" alt="Confusion Matrix" title="View Confusion Matrix" width="250" height="200">
+</a>
+
+
 ## Results-and-insights
 
 ## Contributions
