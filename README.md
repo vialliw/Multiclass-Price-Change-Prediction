@@ -59,7 +59,7 @@ requirements.txt: List of Python dependencies.
 ## Usage
 
 - In terminal: Issue the command 'py .\predict.py <ticker_code> <years_of_data> <output_path>'
-- Example: py .\predict.py MSFT 4 c:\\windows\\temp
+- Example: py .\predict.py TSLA 4 c:\\windows\\temp
 
 ## Visualizations
 
