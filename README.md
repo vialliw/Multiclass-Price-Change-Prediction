@@ -63,28 +63,11 @@ requirements.txt: List of Python dependencies.
 
 ## Visualizations
 
-[Multiclass Distribution](https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/multiclass_distribution.png)
-
-<a href="https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/multiclass_distribution.png" target="_blank">
-  <img src="https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/multiclass_distribution.png" alt="Multiclass Distribution" title="View Confusion Matrix" width="250" height="150">
-</a>
-
-[Standard Confusion Matrix](https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/confusion_matrix_counts.png)
-
-<a href="https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/confusion_matrix_counts.png" target="_blank">
-  <img src="https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/confusion_matrix_counts.png" alt="Standard Confusion Matrix" title="View Standard Confusion Matrix" width="250" height="200">
-</a>
-
-
-[Normalized Confusion Matrix](https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/confusion_matrix.png)
-
-<a href="https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/confusion_matrix.png" target="_blank">
-  <img src="https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/confusion_matrix.png" alt="Normalized Confusion Matrix" title="View Normalized Confusion Matrix" width="250" height="200">
-</a>
-
-
-
-
+| Diagram | Thumbnail | Descriptions |
+|------------|-------|------|
+| **Multiclass Distribution** | <a href="https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/multiclass_distribution.png" target="_blank"><img src="https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/multiclass_distribution.png" alt="Multiclass Distribution" title="View Multiclass Distribution" width="250" height="150"></a> | The Multiclass Distribution diagram reveals that fluctuations close to zero occur most frequently. |
+| **Standard Confusion Matrix** | <a href="https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/confusion_matrix_counts.png" target="_blank"><img src="https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/confusion_matrix_counts.png" alt="Standard Confusion Matrix" title="View Standard Confusion Matrix" width="250" height="200"></a> | From this standard confusion matrix, the diagonal boxes represent the number of samples that were correctly classified for each class. |
+| **Normalized Confusion Matrix** | <a href="https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/confusion_matrix.png" target="_blank"><img src="https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/confusion_matrix.png" alt="Normalized Confusion Matrix" title="View Normalized Confusion Matrix" width="250" height="200"></a> | From this normalized multiclass confusion matrix, the diagonal boxes represent the number of samples that were correctly classified for each class. A value of 1.0 on the diagonal indicates that all samples of that class were correctly classified, which is indeed a sign of high accuracy for that particular class. |
 
 
 ## Results-and-insights
