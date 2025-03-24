@@ -26,3 +26,20 @@ This project predicts price change categories based on historical data using a R
   - `<-1.5 stdev`
 
 ## Directory Structure
+
+##setup-instructions
+
+##usage
+
+##visualizations
+
+##results-and-insights
+
+##contributions
+
+##license
+
+
+
+
+
