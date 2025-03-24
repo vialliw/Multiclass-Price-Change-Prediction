@@ -91,13 +91,13 @@ The Random Forests model was trained and evaluated on the stock price dataset, f
 #### 1. Model Performance:
 
 
-Training Accuracy: The model achieved a training accuracy of **99.79%**, suggesting it memorized the training data effectively.
-Evaluation Accuracy: Despite the high training accuracy, the evaluation accuracy was **54.21%**, indicating poor generalization to unseen data.
+Training Accuracy: The model achieved a training accuracy of **92.96%**, suggesting it memorized the training data effectively.
+Evaluation Accuracy: Despite the high training accuracy, the evaluation accuracy was **51.02%**, indicating poor generalization to unseen data.
 Normalized Confusion Matrix: Surprisingly, the normalized confusion matrix showed diagonal values close to 1.0, implying near-perfect classification for each class. However, this result contradicts the low evaluation accuracy, signaling a critical issue in the evaluation process or data handling.
 
 #### 2. Confusion Matrix Analysis:
 
-The normalized confusion matrix initially appeared promising, with diagonal values near 1.0, suggesting the model correctly classified nearly all instances in each class. However, this result is inconsistent with the overall evaluation accuracy of 54.21%. Possible explanations include:
+The normalized confusion matrix initially appeared promising, with diagonal values near 1.0, suggesting the model correctly classified nearly all instances in each class. However, this result is inconsistent with the overall evaluation accuracy of 51.02%. Possible explanations include:
 
 
 Data Leakage: There may have been unintentional leakage of future information into the training process, leading to artificially inflated performance metrics.
@@ -108,10 +108,10 @@ Imbalanced Classes: Despite normalization, the model may still be favoring the m
 #### 3. Insights and Observations:
 
 
-Discrepancy in Metrics: The contradiction between the normalized confusion matrix (diagonal values ~1.0) and the low evaluation accuracy (54.21%) highlights a critical issue in the model’s evaluation or data handling. This discrepancy must be resolved before drawing conclusions.
+Discrepancy in Metrics: The contradiction between the normalized confusion matrix (diagonal values ~1.0) and the low evaluation accuracy (51.02%) highlights a critical issue in the model’s evaluation or data handling. This discrepancy must be resolved before drawing conclusions.
 Potential Data Leakage: The near-perfect diagonal values suggest the model may have access to future information, which would render the results invalid for real-world applications.
 Class Imbalance: Even with normalization, the model’s performance may still be skewed by the dominance of certain classes (e.g., Flat movements), leading to misleadingly high diagonal values.
-Practical Implications: If the model’s true performance aligns with the evaluation accuracy (54.21%), its utility is limited, especially for predicting extreme movements (Big Rise and Big Drop).
+Practical Implications: If the model’s true performance aligns with the evaluation accuracy (51.02%), its utility is limited, especially for predicting extreme movements (Big Rise and Big Drop).
 
 #### 4. Recommendations for Improvement:
 
