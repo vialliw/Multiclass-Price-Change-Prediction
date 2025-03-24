@@ -37,8 +37,9 @@ This project predicts price change categories based on historical data using a R
 
 
 ## Directory Structure
+
 src/: Python scripts, including:
-data_preparation.py: For sliding window feature generation using 8 technical indicators.
+prediction.py: For sliding window feature generation using 8 technical indicators.
 model_training.py: For training the Random Forest model.
 evaluation.py: For evaluating the model and creating visualizations.
 data/: (Optional) Store sample datasets here.
@@ -57,8 +58,8 @@ requirements.txt: List of Python dependencies.
 
 ## Usage
 
-- In terminal: Issue the command 'py .\predict.py <ticker code>'
-- Example: py .\predict.py MSFT
+- In terminal: Issue the command 'py .\predict.py <ticker_code> <years_of_data> <output_path>'
+- Example: py .\predict.py MSFT 4 c:\\windows\\temp
 
 ## Visualizations
 
