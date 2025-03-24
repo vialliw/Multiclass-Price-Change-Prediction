@@ -27,17 +27,17 @@ This project predicts price change categories based on historical data using a R
 
 ## Directory Structure
 
-##setup-instructions
+## setup-instructions
 
-##usage
+## usage
 
-##visualizations
+## visualizations
 
-##results-and-insights
+## results-and-insights
 
-##contributions
+## contributions
 
-##license
+## license
 
 
 
