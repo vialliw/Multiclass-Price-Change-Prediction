@@ -19,11 +19,11 @@ This project predicts price change categories based on historical data using a R
 ## Features and Target
 
 - **Features:** Derived from 8 technical indicators.
-  - [Money Flow Index](https://www.investopedia.com/terms/m/mfi.asp)
-  - [Williams %R](https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/williams-r)
-  - [Rate of Change(ROC)](https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/rate-of-change-roc)
-  - [Price/EMA](https://www.investopedia.com/ask/answers/122314/what-exponential-moving-average-ema-formula-and-how-ema-calculated.asp)
-  - [Linear Regression Slope](https://trendspider.com/learning-center/linear-regression-slope-a-comprehensive-guide-for-traders/)
+  - [Money Flow Index](https://www.investopedia.com/terms/m/mfi.asp) Day parameter used is 14.
+  - [Williams %R](https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/williams-r) Day parameter used is 14.
+  - [Rate of Change(ROC)](https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/rate-of-change-roc) ROC of 14 days and intraday are used.
+  - [Price/EMA](https://www.investopedia.com/ask/answers/122314/what-exponential-moving-average-ema-formula-and-how-ema-calculated.asp) EMA of 14 and 40 days are used.
+  - [Linear Regression Slope](https://trendspider.com/learning-center/linear-regression-slope-a-comprehensive-guide-for-traders/) Linear regression slope of 14 and 40 days are used.
 
 - **Target Classes:**
 
