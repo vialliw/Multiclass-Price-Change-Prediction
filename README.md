@@ -25,11 +25,14 @@ This project predicts price change categories based on historical data using a R
   - [Linear Regression Slope](https://trendspider.com/learning-center/linear-regression-slope-a-comprehensive-guide-for-traders/)
 
 - **Target Classes:**
-  - 2 (Denotes for big rise, log return of next 10th day greater than 1.5 standard deviation)
-  - 1 (Denotes for rise, log return of next 10th day  between 0.5 and 1.5 standard deviation)
-  - 0 (Denotes for flat, log return of next 10th day  between -0.5 and 0.5 standard deviation)
-  - -1 (Denotes for drop, log return of next 10th day  between -1.5 and -0.5 standard deviation)
-  - -2 (Denotes for big drop, log return of next 10th day  less than 1.5 standard deviation)
+| Class       | Denote       | Descriptions       |
+|----------------|----------------|----------------|
+| 2  | Big rise  | Log return of next 10th day greater than 1.5 standard deviation  |
+| 1  | Rise  | Log return of next 10th day  between 0.5 and 1.5 standard deviation  |
+| 0  | Flat  | Log return of next 10th day  between -0.5 and 0.5 standard deviation  |
+| -1  | Drop  | Log return of next 10th day  between -1.5 and -0.5 standard deviation  |
+| -2  | Big drop  | Log return of next 10th day less than 1.5 standard deviation  |
+
 
 ## Directory Structure
 src/: Python scripts, including:
