@@ -17,6 +17,7 @@
 This project predicts price change categories based on historical data using a Random Forest model for multiclass classification.
 
 ## Features and Target
+
 - **Features:** Derived from 8 technical indicators.
   - [Money Flow Index](https://www.investopedia.com/terms/m/mfi.asp)
   - [Williams %R](https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/williams-r)
@@ -25,6 +26,7 @@ This project predicts price change categories based on historical data using a R
   - [Linear Regression Slope](https://trendspider.com/learning-center/linear-regression-slope-a-comprehensive-guide-for-traders/)
 
 - **Target Classes:**
+
 | Class       | Denote       | Descriptions       |
 |----------------|----------------|----------------|
 | 2  | Big rise  | Log return of next 10th day greater than 1.5 standard deviation  |
@@ -44,7 +46,13 @@ visualizations/: Save generated charts for class distribution and confusion matr
 requirements.txt: List of Python dependencies.
 
 ## setup-instructions
-- Install ta-lib
+- Install ta-lib 
+  - Download ta-lib wheel file [here](https://github.com/cgohlke/talib-build/releases)
+  - In terminal, type 'pip install <ta-lib file>'
+  - Example: pip install ta_lib-0.6.3-cp312-cp312-win_amd64.whl
+- Install required python packages
+  - Download requirements.txt
+  - In terminal, type 'pip install -r requirements.txt'
 - Copy vw_toolbox.py to your library path
 
 ## usage
