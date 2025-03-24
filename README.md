@@ -19,16 +19,17 @@ This project predicts price change categories based on historical data using a R
 ## Features and Target
 - **Features:** Derived from 8 technical indicators.
   - [Money Flow Index](https://www.investopedia.com/terms/m/mfi.asp)
-  - Williams
-  - `-0.5 to 0.5 stdev`
-  - `-1.5 to -0.5 stdev`
-  - `<-1.5 stdev`
+  - [Williams %R](https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/williams-r)
+  - [Rate of Change(ROC)](https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/rate-of-change-roc)
+  - [Price/EMA](https://www.investopedia.com/ask/answers/122314/what-exponential-moving-average-ema-formula-and-how-ema-calculated.asp)
+  - [Linear Regression Slope](https://trendspider.com/learning-center/linear-regression-slope-a-comprehensive-guide-for-traders/)
+
 - **Target Classes:**
-  - `>1.5 stdev`
-  - `0.5 to 1.5 stdev`
-  - `-0.5 to 0.5 stdev`
-  - `-1.5 to -0.5 stdev`
-  - `<-1.5 stdev`
+  - 2 (Denotes for big rise, log return of next 10th day greater than 1.5 standard deviation)
+  - 1 (Denotes for rise, log return of next 10th day  between 0.5 and 1.5 standard deviation)
+  - 0 (Denotes for flat, log return of next 10th day  between -0.5 and 0.5 standard deviation)
+  - -1 (Denotes for drop, log return of next 10th day  between -1.5 and -0.5 standard deviation)
+  - -2 (Denotes for big drop, log return of next 10th day  less than 1.5 standard deviation)
 
 ## Directory Structure
 src/: Python scripts, including:
