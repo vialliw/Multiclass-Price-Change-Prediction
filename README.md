@@ -63,11 +63,28 @@ requirements.txt: List of Python dependencies.
 
 ## Visualizations
 
+[Multiclass Distribution](https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/multiclass_distribution.png)
+
+<a href="https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/multiclass_distribution.png" target="_blank">
+  <img src="https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/multiclass_distribution.png" alt="Multiclass Distribution" title="View Confusion Matrix" width="250" height="150">
+</a>
+
+[Standard Confusion Matrix](https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/confusion_matrix_counts.png)
+
+<a href="https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/confusion_matrix_counts.png" target="_blank">
+  <img src="https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/confusion_matrix_counts.png" alt="Standard Confusion Matrix" title="View Standard Confusion Matrix" width="250" height="200">
+</a>
+
+
 [Normalized Confusion Matrix](https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/confusion_matrix.png)
 
 <a href="https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/confusion_matrix.png" target="_blank">
-  <img src="https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/confusion_matrix.png" alt="Confusion Matrix" title="View Confusion Matrix" width="250" height="200">
+  <img src="https://raw.githubusercontent.com/vialliw/Multiclass-Price-Change-Prediction/refs/heads/main/images/confusion_matrix.png" alt="Normalized Confusion Matrix" title="View Normalized Confusion Matrix" width="250" height="200">
 </a>
+
+
+
+
 
 
 ## Results-and-insights
