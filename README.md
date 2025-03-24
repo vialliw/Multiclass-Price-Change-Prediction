@@ -18,6 +18,11 @@ This project predicts price change categories based on historical data using a R
 
 ## Features and Target
 - **Features:** Derived from 8 technical indicators.
+  - [Money Flow Index](https://www.investopedia.com/terms/m/mfi.asp)
+  - Williams
+  - `-0.5 to 0.5 stdev`
+  - `-1.5 to -0.5 stdev`
+  - `<-1.5 stdev`
 - **Target Classes:**
   - `>1.5 stdev`
   - `0.5 to 1.5 stdev`
