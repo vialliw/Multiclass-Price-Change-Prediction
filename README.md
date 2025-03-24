@@ -6,12 +6,12 @@
 - [Project Overview](#project-overview)
 - [Features and Target](#features-and-target)
 - [Directory Structure](#directory-structure)
-- [Setup Instructions](#setup-instructions)
-- [Usage](#usage)
-- [Visualizations](#visualizations)
-- [Results and Insights](#results-and-insights)
-- [Contributions](#contributions)
-- [License](#license)
+- [Setup Instructions](#Setup-instructions)
+- [Usage](#Usage)
+- [Visualizations](#Visualizations)
+- [Results and Insights](#Results-and-insights)
+- [Contributions](#Contributions)
+- [License](#License)
 
 ## Project Overview
 This project predicts price change categories based on historical data using a Random Forest model for multiclass classification.
@@ -45,9 +45,9 @@ data/: (Optional) Store sample datasets here.
 visualizations/: Save generated charts for class distribution and confusion matrix.
 requirements.txt: List of Python dependencies.
 
-## setup-instructions
+## Setup-instructions
 - Install ta-lib 
-  - Download ta-lib wheel file [here](https://github.com/cgohlke/talib-build/releases)
+  - Download ta-lib wheel file [here](https://github.com/cgohlke/talib-build/releases) according to your python version and platform
   - In terminal, type 'pip install <ta-lib file>'
   - Example: pip install ta_lib-0.6.3-cp312-cp312-win_amd64.whl
 - Install required python packages
@@ -55,17 +55,18 @@ requirements.txt: List of Python dependencies.
   - In terminal, type 'pip install -r requirements.txt'
 - Copy [vw_toolbox.py](https://github.com/vialliw/Multiclass-Price-Change-Prediction/blob/main/src/vw_toolbox.py) to your library path
 
-## usage
-Command: py .\talib_rf_predict05d.py <ticker code>
-Example: py .\talib_rf_predict05d.py MSFT
+## Usage
 
-## visualizations
+- In terminal: Issue the command 'py .\predict.py <ticker code>'
+- Example: py .\predict.py MSFT
 
-## results-and-insights
+## Visualizations
 
-## contributions
+## Results-and-insights
 
-## license
+## Contributions
+
+## License
 
 
 
