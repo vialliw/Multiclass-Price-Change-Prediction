@@ -71,16 +71,16 @@ This project aims to develop a robust and interpretable model for stock price ch
 - Install ta-lib 
   - Download ta-lib wheel file [here](https://github.com/cgohlke/talib-build/releases) according to your python version and platform
   - In terminal, type 'pip install <ta-lib file>'
-  - Example: pip install ta_lib-0.6.3-cp312-cp312-win_amd64.whl
+  - Example: <pre><code id="code-to-copy" class="copyable">pip install ta_lib-0.6.3-cp312-cp312-win_amd64.whl</code></pre>
 - Install required python packages
   - Download [requirements.txt](https://github.com/vialliw/Multiclass-Price-Change-Prediction/blob/main/src/requirements.txt)
-  - In terminal, type 'pip install -r requirements.txt'
+  - In terminal, type <pre><code id="code-to-copy" class="copyable">pip install -r requirements.txt</code></pre>
 - Copy [vw_toolbox.py](https://github.com/vialliw/Multiclass-Price-Change-Prediction/blob/main/src/vw_toolbox.py) to your library path
 
 ## Usage
 
 - In terminal: Issue the command 'py .\predict.py <ticker_code> <years_of_data> <output_path>'
-- Example: py .\predict.py TSLA 4 c:\\windows\\temp
+- Example: <pre><code id="code-to-copy" class="copyable">py .\predict.py TSLA 4 c:\\windows\\temp</code></pre>
 
 ## Visualizations
 
