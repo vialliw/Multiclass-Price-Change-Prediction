@@ -1,5 +1,7 @@
 # Stock Price Change Prediction Using Random Forests
 
+![Stock Price Change Prediction Using Random Forests](https://github.com/vialliw/Multiclass-Price-Change-Prediction/blob/main/images/stock_price_change_prediction_using_random_forests.jpg?raw=true)
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Directory Structure](#directory-structure)
