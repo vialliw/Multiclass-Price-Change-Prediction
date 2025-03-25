@@ -16,6 +16,14 @@
 
 The primary objective of this project is to predict stock price movements using a Random Forests model. Instead of directly predicting the actual stock price, which is inherently challenging due to its high volatility and sensitivity to external factors, the focus is on predicting price change directions. Predicting actual prices often suffers from drawbacks such as overfitting, high sensitivity to noise, and difficulty in capturing complex market dynamics. By shifting the focus to price change prediction, the model can better generalize patterns and provide actionable insights for traders and investors.
 
+#### Significance in Learning Random Forests
+
+- Learning Random Forests for stock price prediction is crucial because it:
+- Prevents overfitting in volatile financial data
+- Handles diverse features like prices, volumes, and external indicators
+- Identifies key drivers of predictions, making it interpretable
+- Builds a foundation for advanced techniques like Gradient Boosting
+- Offers robustness and reliability for high-stakes financial forecasting
 
 #### Target Classes:
 
