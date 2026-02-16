@@ -1,8 +1,5 @@
 # Relative Rotation Analysis Dashboard
 
-![Stock Price Change Prediction Using Random Forests](https://github.com/vialliw/Multiclass-Price-Change-Prediction/blob/main/images/stock_price_change_prediction_using_random_forests.jpg?raw=true)
-
-
 An institutional-grade visualization engine for cross-asset cyclical analysis. This dashboard implements relative strength and momentum vectors to track the rotation of financial instruments (Equities, Commodities, and FX) across four distinct market quadrants.
 
 <p align="center">
