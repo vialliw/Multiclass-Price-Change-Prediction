@@ -1,5 +1,8 @@
 # Relative Rotation Analysis Dashboard
 
+![Stock Price Change Prediction Using Random Forests](https://github.com/vialliw/Multiclass-Price-Change-Prediction/blob/main/images/stock_price_change_prediction_using_random_forests.jpg?raw=true)
+
+
 An institutional-grade visualization engine for cross-asset cyclical analysis. This dashboard implements relative strength and momentum vectors to track the rotation of financial instruments (Equities, Commodities, and FX) across four distinct market quadrants.
 
 ## Abstract
@@ -11,14 +14,16 @@ Traditional performance metrics often fail to capture the interplay between tren
 The dashboard utilizes a two-factor quantitative model centered on **100**:
 
 ### 1. RS-Ratio (X-Axis)
-
 Measures the relative trend of an asset. It is derived from the Rate of Change (ROC) of the price ratio between the asset and the benchmark:
 
 
 
-### 2. RS-Momentum (Y-Axis)
 
+### 2. RS-Momentum (Y-Axis)
 Measures the acceleration of the relative trend. It identifies whether the relative strength is gaining or losing velocity:
+
+
+
 
 
 
