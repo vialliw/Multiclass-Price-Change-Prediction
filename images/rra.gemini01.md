@@ -5,6 +5,10 @@
 
 An institutional-grade visualization engine for cross-asset cyclical analysis. This dashboard implements relative strength and momentum vectors to track the rotation of financial instruments (Equities, Commodities, and FX) across four distinct market quadrants.
 
+<p align="center">
+  <video src="https://github.com/vialliw/Multiclass-Price-Change-Prediction/blob/main/images/RRA.VIALLI.mp4?raw=true" width="900" autoplay loop muted></video>
+</p>
+
 ## Abstract
 
 Traditional performance metrics often fail to capture the interplay between trend strength and momentum. This project provides a **Relative Rotation Analysis (RRA)** dashboard that normalizes asset performance against a benchmark, allowing traders to visualize lead-lag relationships and anticipate sector rotation before it appears in absolute price charts.
@@ -74,6 +78,18 @@ for i in range(trail-1, len(dates)):
     # Update frame data...
 
 ```
+
+---
+
+## Screenshots
+
+<p align="center">
+  <img src="https://github.com/vialliw/Multiclass-Price-Change-Prediction/blob/main/images/RRA.png">
+</p>
+
+<p align="center">
+  <img src="https://github.com/vialliw/Multiclass-Price-Change-Prediction/blob/main/images/RANK.TABLE.png">
+</p>
 
 ---
 
