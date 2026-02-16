@@ -6,7 +6,7 @@
 An institutional-grade visualization engine for cross-asset cyclical analysis. This dashboard implements relative strength and momentum vectors to track the rotation of financial instruments (Equities, Commodities, and FX) across four distinct market quadrants.
 
 <p align="center">
-  <video src="https://github.com/vialliw/Multiclass-Price-Change-Prediction/blob/main/images/RRA.VIALLI.mp4?raw=true" width="900" autoplay loop muted></video>
+  <video src="https://github.com/user-attachments/assets/d9fa682d-92dd-4f91-a0f8-ee2b14dc3dfa?raw=true" width="900" autoplay loop muted></video>
 </p>
 
 ## Abstract
