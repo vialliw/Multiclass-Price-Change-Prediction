@@ -16,16 +16,16 @@ The dashboard utilizes a two-factor quantitative model centered on **100**:
 ### 1. RS-Ratio (X-Axis)
 Measures the relative trend of an asset. It is derived from the Rate of Change (ROC) of the price ratio between the asset and the benchmark:
 
-
-
+<p align="center">
+  <img src="https://github.com/vialliw/Multiclass-Price-Change-Prediction/blob/main/images/rs.ratio.svg" width="500">
+</p>
 
 ### 2. RS-Momentum (Y-Axis)
 Measures the acceleration of the relative trend. It identifies whether the relative strength is gaining or losing velocity:
 
-
-
-
-
+<p align="center">
+  <img src="https://github.com/vialliw/Multiclass-Price-Change-Prediction/blob/main/images/rs.momentum.svg" width="500">
+</p>
 
 ---
 
@@ -35,7 +35,8 @@ Measures the acceleration of the relative trend. It identifies whether the relat
 * **Vector Smoothing:** Implements `scipy.interpolate.make_interp_spline` for smooth trailing lines, making directional shifts easier to identify visually.
 * **High-Performance Backend:** Integrated with **DuckDB** for rapid analytical queries on Parquet and large-scale financial datasets.
 * **Interactive Controls:** Full animation suite with localized "trailing" logic to visualize path dependency over time.
-
+* **Optimized Chromatic Spectrum:** Implements a discrete 13-color palette mapped across the visible spectrum (Red to Magenta). This ensures maximum contrast between overlapping asset trails, critical for distinguishing between high-correlation sectors (e.g., XLK vs. XLC).
+* **Deterministic Trace Identity:** Trace colors are bound to specific ticker objects through a legendgroup synchronization layer. This allows the user to toggle an asset's visibility in the animation frames while maintaining persistent color identity across the Ratio and Momentum heads.
 ---
 
 ## Quick Start
